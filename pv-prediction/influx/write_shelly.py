@@ -97,4 +97,3 @@ if __name__ == "__main__":
     status = fetch_shelly_status(SHELLY_IP)
     if status:
         write_to_influx(status)
-# influx/write_shelly.py
